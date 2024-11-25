@@ -58,6 +58,7 @@ fn execute_test_suite(suite: TestSuite) -> Result<(), String> {
         let mut env = Env::default();
         // for mainnet
         env.cfg.chain_id = 1;
+        env.cfg.disable_base_fee = true;
         // env.cfg.spec_id is set down the road
 
         // block env

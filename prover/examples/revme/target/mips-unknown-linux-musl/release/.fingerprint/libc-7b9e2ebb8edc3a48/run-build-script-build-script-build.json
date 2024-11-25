@@ -1,0 +1,1 @@
+{"rustc":5172905923388811079,"features":"","target":0,"profile":0,"path":0,"deps":[[16859105048871006744,"build_script_build",false,5109199433610142045]],"local":[{"RerunIfChanged":{"output":"mips-unknown-linux-musl/release/build/libc-7b9e2ebb8edc3a48/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

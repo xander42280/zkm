@@ -10,7 +10,7 @@ edition = "2021"
 
 [dependencies]
 zkm-runtime = { path = "../../../runtime/entrypoint" }
-revm = { git = "https://github.com/powdr-labs/revm", branch = "serde-no-std", default-features = false, features = [ "serde" ] }
+revm = { git = "https://github.com/powdr-labs/revm", branch = "serde-no-std", default-features = false, features = [ "serde", "optional_no_base_fee" ] }
 
 #models = { path = "../models" }
 models = { git = "https://github.com/eigmax/powdr-revme", branch = "continuations", package = "models" }
